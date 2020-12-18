@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-const kek = require('./src/indexEvoli.js');
+const kek = require('./indexEvoli.js');
 
 
 function App() {
