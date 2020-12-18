@@ -1,9 +1,12 @@
-const randomArray = require('./randomArray.js');
+import Position from './position.js';
+import randomArray from './randomArray.js';
+//const randomArray = require('./randomArray.js');
 //const Organism = require('./organism.js');
-const Position = require('./position.js');
+//const Position = require('./position.js');
+
 
 function assignStart(x, map) {
-    var arr = randomArray.randomArray(map.startingPositions.length);
+    var arr = randomArray(map.startingPositions.length);
     for (let i = 0; i < x.length; i++) {
         let y = i % map.startingPositions.length;
         x.forEach(element => {
@@ -14,5 +17,5 @@ function assignStart(x, map) {
 
     }
 }
-
-module.exports = assignStart;
+export default assignStart;
+//module.exports = assignStart;

@@ -1,8 +1,15 @@
-const radar = require('./radar.js');
-const hunt = require('./hunt.js');
-const flee = require('./flee.js');
-const wander = require('./wander.js');
-const Position = require('./position.js');
+import radar from './radar.js'
+import hunt from './hunt.js'
+import flee from './flee.js'
+import wander from './wander.js'
+import Position from './position.js'
+
+
+// const radar = require('./radar.js');
+// const hunt = require('./hunt.js');
+// const flee = require('./flee.js');
+// const wander = require('./wander.js');
+// const Position = require('./position.js');
 
 class Organism {
     constructor(map) {
@@ -216,4 +223,5 @@ class Organism {
     }
 }
 
-module.exports = Organism;
+export default Organism
+//module.exports = Organism;

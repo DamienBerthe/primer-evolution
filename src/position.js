@@ -9,4 +9,6 @@ class Position {
 //     Position
 // };
 
-module.exports = Position;
+//module.exports = Position;
+
+export default Position ;

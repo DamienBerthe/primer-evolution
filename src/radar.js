@@ -43,5 +43,5 @@ function radar(delta, size, x, y) {
 
     return array;
 }
-
-module.exports = radar;
+export default radar
+//module.exports = radar;

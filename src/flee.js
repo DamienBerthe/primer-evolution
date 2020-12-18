@@ -1,4 +1,5 @@
-const Position = require('./position.js');
+import Position from './position.js'
+//const Position = require('./position.js');
 
 function flee(currentPosition, target, size) {
 
@@ -20,4 +21,5 @@ function flee(currentPosition, target, size) {
     return pos;
 }
 
-module.exports = flee;
+export default flee
+//module.exports = flee;

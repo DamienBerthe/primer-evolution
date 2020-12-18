@@ -1,4 +1,5 @@
-const Position = require('./position.js');
+//const Position = require('./position.js');
+import Position from './position.js'
 
 function wander(currentPosition, previousPosition) {
     let vector = []
@@ -69,4 +70,5 @@ function wander(currentPosition, previousPosition) {
     }
 }
 
-module.exports = wander;
+export default wander;
+//module.exports = wander;

@@ -1,4 +1,5 @@
-const Position = require('./position.js');
+import Position from './position.js'
+//const Position = require('./position.js');
 
 function hunt(currentPosition, target, directionSwitch){
         if(directionSwitch === true){
@@ -34,5 +35,5 @@ function hunt(currentPosition, target, directionSwitch){
             }
         }
     }
-
-module.exports = hunt;
+export default hunt
+//module.exports = hunt;

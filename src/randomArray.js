@@ -7,4 +7,5 @@ function randomArray(length) {
     return arr;
 }
 
-module.exports = { randomArray }
+export default randomArray 
+//module.exports = { randomArray }

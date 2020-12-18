@@ -1,5 +1,5 @@
-//const Organism = require('./organism.js');
-const assignStart = require('./startingPositions.js');
+import assignStart from './startingPositions.js'
+//const assignStart = require('./startingPositions.js');
 
 class Game {
 
@@ -39,4 +39,5 @@ class Game {
     }
 }
 
-module.exports = Game;
+export default Game
+//module.exports = Game;

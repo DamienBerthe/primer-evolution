@@ -1,7 +1,12 @@
-const Organism = require('./organism.js');
-const Map = require('./map.js');
-const Game = require('./game.js');
-const assignStart = require('./startingPositions.js');
+import Organism from './organism.js'
+import Map from './map.js'
+import Game from './game.js'
+import assignStart from './startingPositions.js'
+
+// const Organism = require('./organism.js');
+// const Map = require('./map.js');
+// const Game = require('./game.js');
+// const assignStart = require('./startingPositions.js');
 
 const map1 = new Map(50, .2);
 let days = 0;
@@ -59,4 +64,5 @@ function kek(numberDays, fillingRate, population) {
     return answer
 }
 
-module.exports = kek;
+export default kek ;
+//module.exports = kek;
