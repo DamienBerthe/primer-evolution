@@ -6,7 +6,7 @@ import randomArray from './randomArray.js';
 
 
 function assignStart(x, map) {
-    var arr = randomArray.randomArray(map.startingPositions.length);
+    var arr = randomArray(map.startingPositions.length);
     for (let i = 0; i < x.length; i++) {
         let y = i % map.startingPositions.length;
             x[i].currentPosition = new Position(map.startingPositions[arr[y]][2], map.startingPositions[arr[y]][3])
