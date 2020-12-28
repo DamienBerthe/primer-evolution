@@ -35,6 +35,7 @@ let average_size = 'average size : ' + game1.array.reduce((accumulator, currentV
 let answer = Days + "\n" + number + "\n" + average_speed + "\n" + average_perception + "\n" + average_size
 console.log(answer)
 
+
 function kek(numberDays, fillingRate, population) {
     const map1 = new Map(50, fillingRate);
     let days = 0;
